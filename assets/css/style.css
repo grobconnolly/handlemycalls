@@ -1,0 +1,14 @@
+
+/* Font Types:
+Display: font-family: 'Lalezar', cursive;
+Sans: font-family: 'Lato', sans-serif;
+*/
+
+html body {
+    height: 100%;
+    background-color: black;
+}
+
+html {
+font-family: 'Lato', sans-serif;
+}
