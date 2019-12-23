@@ -6,9 +6,7 @@ Sans: font-family: 'Lato', sans-serif;
 
 
 *{
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
+    background-image: url("https://handlemycalls.com/assets/images/wavegrid_@2X.png");
 }
 
-body {
-    background-image: url("assets/images/cork-board.png");
-}
