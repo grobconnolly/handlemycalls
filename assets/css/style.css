@@ -4,11 +4,12 @@ Display: font-family: 'Lalezar', cursive;
 Sans: font-family: 'Lato', sans-serif;
 */
 
-html body {
-    height: 100%;
-    background-color: black;
+
+*{
+    font-family: 'Lato', sans-serif;
+        background-image: url("/images/cork-board.png");
 }
 
-html {
-font-family: 'Lato', sans-serif;
+body {
+    
 }
