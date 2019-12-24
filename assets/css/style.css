@@ -33,3 +33,11 @@
     font-size: 3vh;
     margin-top: 20%;
 }
+
+.secondBackground {
+    background: url(https://handlemycalls.com/assets/images/dot-grid.png);
+}
+
+.howBackground {
+    background: whitesmoke;
+}
