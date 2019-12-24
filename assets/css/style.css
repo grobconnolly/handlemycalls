@@ -1,0 +1,33 @@
+
+
+.textPadding{
+
+    padding-top: 50px;
+}
+
+.heroBackground {
+    background: linear-gradient(109.9deg, #E8E8E8 29.06%, #E8E8E8 42.34%, rgba(232, 232, 232, 0.213704) 101.12%, rgba(232, 232, 232, 0) 104.21%);
+    padding-bottom: 3%;
+}
+
+.titleArea {
+
+    background-color: rgb(255, 255, 255)255, 255, 255);
+}
+
+.contentArea {
+    background-color: rgb(255, 255, 255)
+}
+.icon {
+   text-align: center;
+}
+
+.moveUp {
+
+   padding-bottom: 30px;
+   margin-top: -5px;
+}
+
+.large {
+    height: 40px;;
+}
