@@ -1,4 +1,26 @@
 
+/* 
+font-family: 'Lato', sans-serif;
+*/ 
+
+
+
+h3 {
+    font-family: 'Lato', sans-serif;
+
+}
+.headingText{
+    font-family: 'Lato', sans-serif;
+}
+
+.headingSubText {
+    font-family: 'Lato', sans-serif;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
 
 .textPadding{
 
@@ -12,7 +34,7 @@
 
 .titleArea {
 
-    background-color: rgb(255, 255, 255)255, 255, 255);
+    background-color: white;
 }
 
 .contentArea {
@@ -32,12 +54,29 @@
     font-weight: bolder;
     font-size: 3vh;
     margin-top: 20%;
-}
+    font-family: 'Lato', sans-serif;
 
+}
+.subText {
+    font-family: 'Lato', sans-serif;
+}
 .secondBackground {
     background: url(https://handlemycalls.com/assets/images/dot-grid.png);
 }
 
 .howBackground {
     background: whitesmoke;
+    font-size: 4vh;
+    font-weight: bold;
 }
+
+h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+*/
+
+.boldText {
+    font-weight: bolder;
+}
+
