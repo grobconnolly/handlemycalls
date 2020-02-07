@@ -1,6 +1,10 @@
 
 /* 
 font-family: 'Lato', sans-serif*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 
 .blueLight {
     background-color: #CBDAFF;
@@ -24,11 +28,19 @@ font-family: 'Lato', sans-serif*/
 
 @media (max-width: 1200px) {
   
+.heroHead{
+    font-family: 'Lato', sans-serif;
+}
+
 .heroHead1{
     font-size: 25px;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
+p {
+    font-family: 'Lato', sans-serif;
+}
 
 .topSection{
     padding-top: 3%;
