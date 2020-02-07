@@ -24,6 +24,12 @@ font-family: 'Lato', sans-serif*/
 
 @media (max-width: 1200px) {
   
+.heroHead1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
 .topSection{
     padding-top: 3%;
     margin-left: 3%;
@@ -31,16 +37,15 @@ font-family: 'Lato', sans-serif*/
 
 #heroImage {
     float: none;
-    width: 70%;
-    height: auto;
-    padding-top: 1%;
-    margin-left: 20%;
-
+    width: 100%;
+    padding: 0 0 0 0;
+    
 }
 
 #textBox {
+    margin-top: 6%;
     padding-left: 10%;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 #topBox {
