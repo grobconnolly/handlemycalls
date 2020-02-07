@@ -10,7 +10,7 @@
   <script src="https://kit.fontawesome.com/81d086c017.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
 
 </head>
@@ -19,183 +19,66 @@
 
 <body>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12 last">
-<!-- test-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">HandleMyCalls</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Why use HandleMyCalls?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-      </div>
+  <!-- Simple Navigation -->
+  <div class="nav d-flex bd-highlight mb-3">
+    <div class="mr-auto p-2 bd-highlight">HandleMyCalls
+    </div>
+    <div class="p-2 bd-highlight">Contact Us
     </div>
   </div>
 
-  <!-- Hero Area  -->
-c
-  <div class="container-fluid heroBackground">
-    <div class="row">
-      <div class="col-lg-5">
-        <img src="http://handlemycalls.com/assets/images/hero-image.jpg" alt="employee" height="400px"
-          class="pos px-5 pt-5">
-      </div>
-      <div class="col-lg-7 backRight">
-        <div class="textPadding">
-          <h1 class="pt-5 pr-5 headingText">You are a busy business professional.</h1>
-          <h5 class="pr-5 headingSubText">Stop getting bogged down with unwanted calls!</h5>
-          <button type="button" class="btn btn-success btn-lg button">Request Early Access</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- Hero Space -->
 
-  <!-- New Second Area -->
-
-  <div class="container-fluid secondBackground">
-    <div class="row">
-      <!-- Header-->
-      <div class="col-lg-12">
-        <h3 class="text-center pt-3 pb-3 howBackground">How HandleMyCalls Works?</h3>
-      
-      </div>
-
-      <!-- First Box -->
+  <div id="topBox" class="conatiner-flex blueLight">
+    <section>
       <div class="row">
-      </div>
-      <div class="col-lg-6">
-        <h3 class="stepText text-right">Our Software accepts your incoming calls</h3>
-        <h5 class="subText text-right">It takes around 2-3 minutes with our support tech.</h5>
-      </div>
-      <div class="col-lg-6">
-        <img src="https://handlemycalls.com/assets/images/step1-image.jpg" alt="girl speaking on phone" class="rounded float-left">
+        <div class="col-xl-2 col-md-1 blueLight"></div>
+        <div class="col-xl-4 col-md-9 blueLight">
+          <h1 class="heroHead">Tired of endless unwated phone calls?</h1>
+          <div class='row'>
+            <div class="col-12">
+              <p>HandleMyCalls id developing a software program that will <strong>stop</strong> phone spam for hitting
+                your phone!</p>
+              <div class="form-group">
+                <label for=""></label>
+                <input type="email" class="form-control" name="emailBtn" id="emailBtn" aria-describedby="emailHelpId"
+                  placeholder="example@gmail.com"><button type="button" class="btn btn-primary">Request Early
+                  Access</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-xl-6 col-md-12 blueLight float-right'>
+          <img id="heroImage" src="assets/images/hero-image.jpg">
+        </div>
+
     
-      </div>
 
-      <!-- Second Box -->
-      <div class="col-lg-6"> <img
-          src="https://raw.githubusercontent.com/grobconnolly/handlemycalls/master/assets/images/step2-image.jpg"
-          alt="girl with water issue" class="rounded float-right">
-      </div>
-      <div class="col-lg-6">
-        <h3 class="stepText text-left">Our system will dispatch your incoming phone calls. </h3>
-        <h5 class="subText text-left">Calls you want get directed to your cell imediatly. Call from unknown numbers get screened.</h5>
-      </div>
-      
-      <!-- Third Box-->
+  <section>
+    <div id="topBox" class="conatiner-flex blueLight">
       <div class="row">
-        </div>
-        <div class="col-lg-6">
-          <h3 class="stepText text-right">As we screen calls, we alert you who it is, and what they are calling about.</h3>
-              <h5 class="subText text-right">From youc cell, you can accept, send to voicemail, or block screened phone calls..</h5>
-        </div>
-        <div class="col-lg-6">
-          <img src="https://handlemycalls.com/assets/images/step3-image.jpg" alt="girl speaking on phone" class= "rounded float-left">
-        </div>
+        <div class="col-xl-2 col-md-1 blueLight"></div>
+        <div class="col-xl-8 col-md-10 blueLight">
+          <h1 class="heroHead">Why are we building this?</h1>
+          <div class='row'>
+            <div class="col-12">
+              <p>As a small business owner, I would receive 10-20 solicitation calls a day. From business funding calls,
+                service provider, to even IRS spam calls. I finally had enough and decided to build a tool that would
+                stop all the unwanted calls. When I developed this tool, all of my unwanted calls stopped. At the same
+                time I noticed my productivity increased, my business performed better, and I had more time to spend
+                with my family.</p>
 
-    <!-- Fourth Box -->
-  
-    <div class="col-lg-6"> <img
-      src="https://handlemycalls.com/assets/images/step4-image.jpg"
-      alt="girl with water issue" class="rounded float-right">
-  </div>
-  <div class="col-lg-6">
-    <h3 class="stepText text-left">Our software system allows you to review your logs..</h3>
-    <h5 class="subText text-left">You can add or remove numbers from your white list or block list!</h5>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-
-
-
-
-  <!-- Third Section-->
-
-  <div class="container-fluid sectionTwo pt-3 pb-3">
-    <div class="row">
-      <div class="col-lg-12">
-        <h3 class="text-center pt-2 pb-2 howBackground">Why use HandleMyCalls?</h3>
-      </div>
-    </div>
-
-    <!-- Content Area -->
-    <!-- Header -->
-    <div class="conatainer">
-      <div class="row">
-        <div class="col-lg-6 img"> <img src="http://handlemycalls.com/assets/images/contractor1.jpg" width="100%">
-        </div>
-        <div class="col-lg-6">
-
-
-          <!-- Row 1 -->
-
-          <div class="row pt-4">
-            <div class="col-lg-2">
-              <i class="far fa-money-bill-alt fa-3x align-middle"></i>
-            </div>
-            <div class="col-lg-10 align-middle">
-              <p class="boldText"><strong>Improve Productivity!</p></strong>
-              <p>Let our dedicated team answer your service calls on your behalf. Our professional team will gracefully handle your calls!</p>
             </div>
           </div>
+        </div>
+        <div class='col-xl-2  col-md-1 blueLight'>
 
-          <!-- Row 2 -->
-          <div class="row">
-            <div class="col-lg-2">
-              <i class="far fa-clock fa-3x align-middle"></i>
-            </div>
-            <div class="col-lg-10 align-middle">
-              <p class="boldText"><strong>Don't Get Bogged Down!</p></strong>
-              <p>The average americal is getting over 30 spam calls a month!</p>
-            </div>
-
-            <!-- Row 3-->
-          </div>
-          <div class="row">
-            <div class="col-lg-2">
-              <i class="fas fa-funnel-dollar fa-3x align-middle"></i>
-            </div>
-            <div class="col-lg-10 align-middle">
-              <p class="boldText"><strong>Your own answering service!</p></strong>
-              <p>You do not need to keep hiring and training receptionist! Also, we never call in sick. </p>
-            </div>
-
-            <!-- Row 4-->
-          </div>
-          <div class="row">
-            <div class="col-lg-2">
-              <i class="far fa-chart-bar fa-3x align-middle"></i>
-            </div>
-            <div class="col-lg-10 align-middle">
-              <p><strong>Pay as your go!</p></strong>
-              <p>All of our plans are month to month with no contracts!</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
 
- 
+  </section>
+
 
 </body>
 

@@ -1,82 +1,40 @@
 
 /* 
-font-family: 'Lato', sans-serif;
-*/ 
+font-family: 'Lato', sans-serif*/
 
-
-
-h3 {
-    font-family: 'Lato', sans-serif;
-
-}
-.headingText{
-    font-family: 'Lato', sans-serif;
+.blueLight {
+    background-color: #CBDAFF;
 }
 
-.headingSubText {
-    font-family: 'Lato', sans-serif;
+.heroHead {
+    padding-top: 20%;
 }
 
-.button {
-    font-family: 'Lato', sans-serif;
-    margin-top: 30px;
+#heroImage{
+    float: right;
+    width: 600px;
+    height: auto;
+    padding-top: 14%;
+    padding-right: 10%;
 }
 
-.textPadding{
-
-    padding-top: 50px;
+#topBox {
+  height: 500px;
 }
-
-.heroBackground {
-    background: linear-gradient(109.9deg, #E8E8E8 29.06%, #E8E8E8 42.34%, rgba(232, 232, 232, 0.213704) 101.12%, rgba(232, 232, 232, 0) 104.21%);
-    padding-bottom: 3%;
-}
-
-.titleArea {
-
-    background-color: white;
-}
-
-.contentArea {
-    background-color: rgb(255, 255, 255)
-}
-.icon {
-   text-align: center;
-}
-
-
-
-.large {
-    height: 40px;;
-}
-
-.stepText {
-    font-weight: bolder;
-    font-size: 3vh;
-    margin-top: 20%;
-    font-family: 'Lato', sans-serif;
+@media (max-width: 1200px) {
+#heroImage {
+    float: none;
+    width: 70%;
+    height: auto;
+    padding-top: 1%;
+    margin-left: 20%;
 
 }
-.subText {
-    font-family: 'Lato', sans-serif;
+.heroHead {
+    padding-top: 0%;
 }
-.secondBackground {
-    background: url(https://handlemycalls.com/assets/images/dot-grid.png);
+#topBox {
+    height: 500px;
 }
-
-.howBackground {
-    background: whitesmoke;
-    font-size: 4vh;
-    font-weight: bold;
-}
-
-h5 {
-    font-family: 'Lato', sans-serif;
-}
-
-*/
-
-.boldText {
-    font-weight: bolder;
-}
+ }
 
